@@ -1,0 +1,68 @@
+:root {
+  --white: #fff;
+  --active-color: #c1c4c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	font-family:'Times New Roman', Times, serif;
+  height: 100%;
+  background: var(--active-color);
+	transition: background 0.4s ease;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.audio-player {
+  max-width: 350px;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  color: var(--white);
+  margin-top: 50px;
+}
+.image{
+  border-radius: 20px;
+  height:160px;
+  width:150px
+}
+.track-info {
+  text-align: center;
+	z-index: 1;
+  position: relative;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.artist {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+  input[type=range] {
+    height: 5px;
+    -webkit-appearance: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #3b7677;
+    transition: background 0.2s ease;
+    cursor: pointer;
+  }
+h2,p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+  margin-top: -10px;
+}
+  

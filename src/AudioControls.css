@@ -1,0 +1,28 @@
+.audio-controls {
+    display: flex;
+    justify-content: space-between;
+    width:  55%;
+    margin: 0 auto 15px;
+    margin-top: 30px;
+  }
+  
+  .audio-controls .prev svg,
+  .audio-controls .stop svg,
+  .audio-controls .next svg {
+    width: 50px;
+    height: 41px;
+  }
+  
+  .audio-controls .play svg,
+  
+  .audio-controls .pause svg {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .audio-controls path {
+    fill: var(--black);
+  }
+  p {
+    margin-top: 10px;
+  }
